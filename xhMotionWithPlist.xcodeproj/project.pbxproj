@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820FBCB918213A5F0023AE9A /* motionImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 820FBCB818213A5F0023AE9A /* motionImgView.m */; };
 		8240CECC18203A6C007A25FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8240CECB18203A6C007A25FC /* Foundation.framework */; };
 		8240CECE18203A6C007A25FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8240CECD18203A6C007A25FC /* CoreGraphics.framework */; };
 		8240CED018203A6C007A25FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8240CECF18203A6C007A25FC /* UIKit.framework */; };
 		8240CED618203A6C007A25FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8240CED418203A6C007A25FC /* InfoPlist.strings */; };
 		8240CED818203A6C007A25FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240CED718203A6C007A25FC /* main.m */; };
 		8240CEDC18203A6C007A25FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240CEDB18203A6C007A25FC /* AppDelegate.m */; };
-		8240CEDF18203A6C007A25FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8240CEDD18203A6C007A25FC /* Main.storyboard */; };
 		8240CEE218203A6C007A25FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240CEE118203A6C007A25FC /* ViewController.m */; };
 		8240CEE418203A6C007A25FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8240CEE318203A6C007A25FC /* Images.xcassets */; };
 		8240CEEB18203A6C007A25FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8240CEEA18203A6C007A25FC /* XCTest.framework */; };
@@ -21,6 +21,12 @@
 		8240CEED18203A6C007A25FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8240CECF18203A6C007A25FC /* UIKit.framework */; };
 		8240CEF518203A6C007A25FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8240CEF318203A6C007A25FC /* InfoPlist.strings */; };
 		8240CEF718203A6C007A25FC /* xhMotionWithPlistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240CEF618203A6C007A25FC /* xhMotionWithPlistTests.m */; };
+		8240CF0118203CA4007A25FC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8240CF0018203CA4007A25FC /* ViewController.xib */; };
+		8240CF0418203F34007A25FC /* UIView+Motion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240CF0218203F34007A25FC /* UIView+Motion.m */; };
+		8240CF0818205527007A25FC /* ppl_layer.png in Resources */ = {isa = PBXBuildFile; fileRef = 8240CF0518205527007A25FC /* ppl_layer.png */; };
+		8240CF0918205527007A25FC /* bld_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 8240CF0618205527007A25FC /* bld_BG.png */; };
+		8240CF0A18205527007A25FC /* vanness_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8240CF0718205527007A25FC /* vanness_Logo.png */; };
+		8240CF0C18205540007A25FC /* motionImgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8240CF0B18205540007A25FC /* motionImgs.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		820FBCB718213A5F0023AE9A /* motionImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = motionImgView.h; sourceTree = "<group>"; };
+		820FBCB818213A5F0023AE9A /* motionImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = motionImgView.m; sourceTree = "<group>"; };
 		8240CEC818203A6C007A25FC /* xhMotionWithPlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xhMotionWithPlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8240CECB18203A6C007A25FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8240CECD18203A6C007A25FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +52,6 @@
 		8240CED918203A6C007A25FC /* xhMotionWithPlist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xhMotionWithPlist-Prefix.pch"; sourceTree = "<group>"; };
 		8240CEDA18203A6C007A25FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8240CEDB18203A6C007A25FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8240CEDE18203A6C007A25FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8240CEE018203A6C007A25FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8240CEE118203A6C007A25FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8240CEE318203A6C007A25FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +60,13 @@
 		8240CEF218203A6C007A25FC /* xhMotionWithPlistTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "xhMotionWithPlistTests-Info.plist"; sourceTree = "<group>"; };
 		8240CEF418203A6C007A25FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8240CEF618203A6C007A25FC /* xhMotionWithPlistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xhMotionWithPlistTests.m; sourceTree = "<group>"; };
+		8240CF0018203CA4007A25FC /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		8240CF0218203F34007A25FC /* UIView+Motion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Motion.m"; sourceTree = "<group>"; };
+		8240CF0318203F34007A25FC /* UIView+Motion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Motion.h"; sourceTree = "<group>"; };
+		8240CF0518205527007A25FC /* ppl_layer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ppl_layer.png; sourceTree = "<group>"; };
+		8240CF0618205527007A25FC /* bld_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bld_BG.png; sourceTree = "<group>"; };
+		8240CF0718205527007A25FC /* vanness_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vanness_Logo.png; sourceTree = "<group>"; };
+		8240CF0B18205540007A25FC /* motionImgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = motionImgs.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +128,17 @@
 			children = (
 				8240CEDA18203A6C007A25FC /* AppDelegate.h */,
 				8240CEDB18203A6C007A25FC /* AppDelegate.m */,
-				8240CEDD18203A6C007A25FC /* Main.storyboard */,
 				8240CEE018203A6C007A25FC /* ViewController.h */,
 				8240CEE118203A6C007A25FC /* ViewController.m */,
+				8240CF0018203CA4007A25FC /* ViewController.xib */,
+				820FBCB718213A5F0023AE9A /* motionImgView.h */,
+				820FBCB818213A5F0023AE9A /* motionImgView.m */,
+				8240CF0318203F34007A25FC /* UIView+Motion.h */,
+				8240CF0218203F34007A25FC /* UIView+Motion.m */,
+				8240CF0B18205540007A25FC /* motionImgs.plist */,
+				8240CF0518205527007A25FC /* ppl_layer.png */,
+				8240CF0618205527007A25FC /* bld_BG.png */,
+				8240CF0718205527007A25FC /* vanness_Logo.png */,
 				8240CEE318203A6C007A25FC /* Images.xcassets */,
 				8240CED218203A6C007A25FC /* Supporting Files */,
 			);
@@ -228,9 +250,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8240CF0818205527007A25FC /* ppl_layer.png in Resources */,
+				8240CF0A18205527007A25FC /* vanness_Logo.png in Resources */,
+				8240CF0C18205540007A25FC /* motionImgs.plist in Resources */,
 				8240CEE418203A6C007A25FC /* Images.xcassets in Resources */,
+				8240CF0118203CA4007A25FC /* ViewController.xib in Resources */,
 				8240CED618203A6C007A25FC /* InfoPlist.strings in Resources */,
-				8240CEDF18203A6C007A25FC /* Main.storyboard in Resources */,
+				8240CF0918205527007A25FC /* bld_BG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8240CF0418203F34007A25FC /* UIView+Motion.m in Sources */,
 				8240CEE218203A6C007A25FC /* ViewController.m in Sources */,
 				8240CEDC18203A6C007A25FC /* AppDelegate.m in Sources */,
+				820FBCB918213A5F0023AE9A /* motionImgView.m in Sources */,
 				8240CED818203A6C007A25FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,14 +308,6 @@
 				8240CED518203A6C007A25FC /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8240CEDD18203A6C007A25FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8240CEDE18203A6C007A25FC /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		8240CEF318203A6C007A25FC /* InfoPlist.strings */ = {
@@ -383,6 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "xhMotionWithPlist/xhMotionWithPlist-Prefix.pch";
 				INFOPLIST_FILE = "xhMotionWithPlist/xhMotionWithPlist-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -396,6 +417,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "xhMotionWithPlist/xhMotionWithPlist-Prefix.pch";
 				INFOPLIST_FILE = "xhMotionWithPlist/xhMotionWithPlist-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -462,6 +484,7 @@
 				8240CEFC18203A6D007A25FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8240CEFD18203A6D007A25FC /* Build configuration list for PBXNativeTarget "xhMotionWithPlistTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +493,7 @@
 				8240CEFF18203A6D007A25FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
