@@ -16,7 +16,7 @@
     NSArray         *arr_offsets;
     NSDictionary    *dict_data;
     UIScrollView    *uis_scrView;
-    UIImageView     *uiiv_imgLayers;
+    UIView          *uiv_imgLayers;
 }
 
 @property (nonatomic, readwrite) BOOL motionEnable;

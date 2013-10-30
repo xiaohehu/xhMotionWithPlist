@@ -40,8 +40,8 @@ static CGFloat kMaxZoom = 2.0;
 -(void)initImg
 {
     [uis_scrView removeFromSuperview];
-    uiiv_imgLayers = [[UIImageView alloc] initWithFrame:self.frame];
-    uiiv_imgLayers.clipsToBounds = NO;
+    uiv_imgLayers = [[UIImageView alloc] initWithFrame:self.frame];
+    uiv_imgLayers.clipsToBounds = NO;
     [self loadData];
     [self readAndSetData];
     [self addSubview:uis_scrView];
@@ -68,7 +68,7 @@ static CGFloat kMaxZoom = 2.0;
             float offset = [[arr_offsets objectAtIndex:i] floatValue];
             UIImageView *motionImg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:imgName]];
             motionImg.frame = CGRectMake(-20.0f, -20.0f, self.frame.size.width + 40, self.frame.size.height + 40);
-            [uiiv_imgLayers insertSubview:motionImg atIndex:i];
+            [uiv_imgLayers insertSubview:motionImg atIndex:i];
             
             if (motionEnable == YES) {
                 [motionImg addMotionEffects:offset];
@@ -82,12 +82,12 @@ static CGFloat kMaxZoom = 2.0;
             NSString *imgName = [arr_imgs objectAtIndex:i];
             UIImageView *motionImg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:imgName]];
             motionImg.frame = CGRectMake(-20.0f, -20.0f, self.frame.size.width + 40, self.frame.size.height + 40);
-            [uiiv_imgLayers insertSubview:motionImg atIndex:i];
+            [uiv_imgLayers insertSubview:motionImg atIndex:i];
         }
 
     }
     
-    [uis_scrView addSubview:uiiv_imgLayers];
+    [uis_scrView addSubview:uiv_imgLayers];
 }
 #pragma mark - Init ScrView
 //Init UIScrollView and turn on/off zooming function
@@ -153,7 +153,7 @@ static CGFloat kMaxZoom = 2.0;
 
 -(UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
 {
-    return uiiv_imgLayers;
+    return uiv_imgLayers;
 }
 /*
 // Only override drawRect: if you perform custom drawing.
