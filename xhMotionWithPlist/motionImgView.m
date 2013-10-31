@@ -40,7 +40,7 @@ static CGFloat kMaxZoom = 2.0;
 -(void)initImg
 {
     [uis_scrView removeFromSuperview];
-    uiv_imgLayers = [[UIImageView alloc] initWithFrame:self.frame];
+    uiv_imgLayers = [[UIImageView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, self.frame.size.width, self.frame.size.height)];
     uiv_imgLayers.clipsToBounds = NO;
     [self loadData];
     [self readAndSetData];
@@ -93,9 +93,9 @@ static CGFloat kMaxZoom = 2.0;
 //Init UIScrollView and turn on/off zooming function
 -(void)initScrView
 {
-    uis_scrView = [[UIScrollView alloc] initWithFrame: self.frame];
+    uis_scrView = [[UIScrollView alloc] initWithFrame: CGRectMake(0.0f, 0.0f, self.frame.size.width, self.frame.size.height)];
     uis_scrView.contentSize = CGSizeMake(self.frame.size.width, self.frame.size.height);
-    uis_scrView.clipsToBounds = NO;
+    uis_scrView.clipsToBounds = YES;
     uis_scrView.delegate = self;
     uis_scrView.scrollEnabled = YES;
     uis_scrView.pagingEnabled = NO;
@@ -149,7 +149,6 @@ static CGFloat kMaxZoom = 2.0;
 		}
 	}
 }
-
 
 -(UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
 {

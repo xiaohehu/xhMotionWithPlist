@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820C01701822AEF1002CD75C /* ppl_layer_HUE.png in Resources */ = {isa = PBXBuildFile; fileRef = 820C016C1822AEF1002CD75C /* ppl_layer_HUE.png */; };
+		820C01711822AEF1002CD75C /* bld_BG_HUE.png in Resources */ = {isa = PBXBuildFile; fileRef = 820C016D1822AEF1002CD75C /* bld_BG_HUE.png */; };
+		820C01721822AEF1002CD75C /* ppl_layer_BW.png in Resources */ = {isa = PBXBuildFile; fileRef = 820C016E1822AEF1002CD75C /* ppl_layer_BW.png */; };
+		820C01731822AEF1002CD75C /* bld_BG_BW.png in Resources */ = {isa = PBXBuildFile; fileRef = 820C016F1822AEF1002CD75C /* bld_BG_BW.png */; };
 		820FBCB918213A5F0023AE9A /* motionImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 820FBCB818213A5F0023AE9A /* motionImgView.m */; };
 		8240CECC18203A6C007A25FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8240CECB18203A6C007A25FC /* Foundation.framework */; };
 		8240CECE18203A6C007A25FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8240CECD18203A6C007A25FC /* CoreGraphics.framework */; };
@@ -40,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		820C016C1822AEF1002CD75C /* ppl_layer_HUE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ppl_layer_HUE.png; sourceTree = "<group>"; };
+		820C016D1822AEF1002CD75C /* bld_BG_HUE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bld_BG_HUE.png; sourceTree = "<group>"; };
+		820C016E1822AEF1002CD75C /* ppl_layer_BW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ppl_layer_BW.png; sourceTree = "<group>"; };
+		820C016F1822AEF1002CD75C /* bld_BG_BW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bld_BG_BW.png; sourceTree = "<group>"; };
 		820FBCB718213A5F0023AE9A /* motionImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = motionImgView.h; sourceTree = "<group>"; };
 		820FBCB818213A5F0023AE9A /* motionImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = motionImgView.m; sourceTree = "<group>"; };
 		8240CEC818203A6C007A25FC /* xhMotionWithPlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xhMotionWithPlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +146,10 @@
 				8240CF0B18205540007A25FC /* motionImgs.plist */,
 				8240CF0518205527007A25FC /* ppl_layer.png */,
 				8240CF0618205527007A25FC /* bld_BG.png */,
+				820C016C1822AEF1002CD75C /* ppl_layer_HUE.png */,
+				820C016D1822AEF1002CD75C /* bld_BG_HUE.png */,
+				820C016E1822AEF1002CD75C /* ppl_layer_BW.png */,
+				820C016F1822AEF1002CD75C /* bld_BG_BW.png */,
 				8240CF0718205527007A25FC /* vanness_Logo.png */,
 				8240CEE318203A6C007A25FC /* Images.xcassets */,
 				8240CED218203A6C007A25FC /* Supporting Files */,
@@ -250,13 +262,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820C01731822AEF1002CD75C /* bld_BG_BW.png in Resources */,
 				8240CF0818205527007A25FC /* ppl_layer.png in Resources */,
 				8240CF0A18205527007A25FC /* vanness_Logo.png in Resources */,
 				8240CF0C18205540007A25FC /* motionImgs.plist in Resources */,
 				8240CEE418203A6C007A25FC /* Images.xcassets in Resources */,
 				8240CF0118203CA4007A25FC /* ViewController.xib in Resources */,
+				820C01711822AEF1002CD75C /* bld_BG_HUE.png in Resources */,
+				820C01701822AEF1002CD75C /* ppl_layer_HUE.png in Resources */,
 				8240CED618203A6C007A25FC /* InfoPlist.strings in Resources */,
 				8240CF0918205527007A25FC /* bld_BG.png in Resources */,
+				820C01721822AEF1002CD75C /* ppl_layer_BW.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

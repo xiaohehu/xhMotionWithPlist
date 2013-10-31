@@ -1,16 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>images</key>
-	<array>
-		<string>bld_BG.png</string>
-		<string>ppl_layer.png</string>
-	</array>
-	<key>offsets</key>
-	<array>
-		<string>15</string>
-		<string>30</string>
-	</array>
-</dict>
+<array>
+	<dict>
+		<key>images</key>
+		<array>
+			<string>bld_BG.png</string>
+			<string>ppl_layer.png</string>
+		</array>
+		<key>offsets</key>
+		<array>
+			<string>15</string>
+			<string>30</string>
+		</array>
+	</dict>
+	<dict>
+		<key>offsets</key>
+		<array>
+			<string>15</string>
+			<string>30</string>
+		</array>
+		<key>images</key>
+		<array>
+			<string>bld_BG_BW.png</string>
+			<string>ppl_layer_BW.png</string>
+		</array>
+	</dict>
+	<dict>
+		<key>offsets</key>
+		<array>
+			<string>15</string>
+			<string>30</string>
+		</array>
+		<key>images</key>
+		<array>
+			<string>bld_BG_HUE.png</string>
+			<string>ppl_layer_HUE.png</string>
+		</array>
+	</dict>
+</array>
 </plist>

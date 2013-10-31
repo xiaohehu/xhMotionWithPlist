@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "UIView+Motion.h"
 #import "motionImgView.h"
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIScrollViewAccessibilityDelegate>
+{
+
+}
 
 @end
