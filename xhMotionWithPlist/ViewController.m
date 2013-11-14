@@ -86,7 +86,7 @@
     _uis_bigScrView.delegate = self;
     _uis_bigScrView.scrollEnabled = YES;
     _uis_bigScrView.pagingEnabled = YES;
-    [_uis_bigScrView setBackgroundColor:[UIColor redColor]];
+    [_uis_bigScrView setBackgroundColor:[UIColor clearColor]];
     [self.view addSubview:_uis_bigScrView];
     _uis_bigScrView.contentSize = CGSizeMake(_uis_bigScrView.frame.size.width*_arr_motionImgArray.count, _uis_bigScrView.frame.size.height);
     
@@ -121,7 +121,10 @@
     NSLog(@"Trying to change the scale of contents");
     for (motionImgView *tmp in scrollView.subviews) {
         for (UIScrollView *tmpScr in tmp.subviews) {
-            [tmpScr setZoomScale:1.0 animated:NO];
+            if (tmpScr.tag != 1100) {
+                [tmpScr setZoomScale:1.0 animated:NO];
+            }
+            
         }
     }
 }

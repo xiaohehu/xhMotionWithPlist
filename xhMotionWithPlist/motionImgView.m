@@ -45,6 +45,7 @@ static CGFloat kMaxZoom = 2.0;
     [self loadData];
     [self readAndSetData];
     [self addSubview:uis_scrView];
+    [self initSlider];
 }
 
 #pragma mark - Get data from Dictionary
@@ -153,6 +154,33 @@ static CGFloat kMaxZoom = 2.0;
 -(UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
 {
     return uiv_imgLayers;
+}
+
+#pragma mark- Slider part
+-(void)initSlider
+{
+    if (self.motionEnable == YES) {
+        CGRect frame = CGRectMake(0.0, 0.0, 200.0, 10.0);
+        UISlider *slider = [[UISlider alloc] initWithFrame:frame];
+        [slider addTarget:self action:@selector(sliderAction:) forControlEvents:UIControlEventValueChanged];
+        [slider setBackgroundColor:[UIColor clearColor]];
+        slider.minimumValue = 0.0;
+        slider.maximumValue = 100.0;
+        slider.continuous = YES;
+        slider.value = 50.0;
+        slider.tag = 1100;
+        [self addSubview:slider];
+    }
+
+}
+-(void)sliderAction:(id)sender
+{
+    UISlider *slider = (UISlider *)sender;
+    NSInteger val = lround(slider.value);
+    NSString *imgName = [arr_imgs objectAtIndex:2];
+    UIImageView *motionImg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:imgName]];
+    [motionImg addMotionEffects:val];
+    
 }
 /*
 // Only override drawRect: if you perform custom drawing.

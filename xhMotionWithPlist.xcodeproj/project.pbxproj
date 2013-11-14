@@ -31,6 +31,9 @@
 		8240CF0918205527007A25FC /* bld_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 8240CF0618205527007A25FC /* bld_BG.png */; };
 		8240CF0A18205527007A25FC /* vanness_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8240CF0718205527007A25FC /* vanness_Logo.png */; };
 		8240CF0C18205540007A25FC /* motionImgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8240CF0B18205540007A25FC /* motionImgs.plist */; };
+		82F3EB7718283E8A00EC6AE3 /* ROOF_DECK_SKY_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82F3EB7418283E8A00EC6AE3 /* ROOF_DECK_SKY_.jpg */; };
+		82F3EB7818283E8A00EC6AE3 /* ROOF_DECK_FOREGROUND_.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F3EB7518283E8A00EC6AE3 /* ROOF_DECK_FOREGROUND_.png */; };
+		82F3EB7918283E8A00EC6AE3 /* ROOF_DECK_BACKPLATE_.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F3EB7618283E8A00EC6AE3 /* ROOF_DECK_BACKPLATE_.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		8240CF0618205527007A25FC /* bld_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bld_BG.png; sourceTree = "<group>"; };
 		8240CF0718205527007A25FC /* vanness_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vanness_Logo.png; sourceTree = "<group>"; };
 		8240CF0B18205540007A25FC /* motionImgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = motionImgs.plist; sourceTree = "<group>"; };
+		82F3EB7418283E8A00EC6AE3 /* ROOF_DECK_SKY_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ROOF_DECK_SKY_.jpg; sourceTree = "<group>"; };
+		82F3EB7518283E8A00EC6AE3 /* ROOF_DECK_FOREGROUND_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ROOF_DECK_FOREGROUND_.png; sourceTree = "<group>"; };
+		82F3EB7618283E8A00EC6AE3 /* ROOF_DECK_BACKPLATE_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ROOF_DECK_BACKPLATE_.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,9 @@
 				8240CF0318203F34007A25FC /* UIView+Motion.h */,
 				8240CF0218203F34007A25FC /* UIView+Motion.m */,
 				8240CF0B18205540007A25FC /* motionImgs.plist */,
+				82F3EB7418283E8A00EC6AE3 /* ROOF_DECK_SKY_.jpg */,
+				82F3EB7518283E8A00EC6AE3 /* ROOF_DECK_FOREGROUND_.png */,
+				82F3EB7618283E8A00EC6AE3 /* ROOF_DECK_BACKPLATE_.png */,
 				8240CF0518205527007A25FC /* ppl_layer.png */,
 				8240CF0618205527007A25FC /* bld_BG.png */,
 				820C016C1822AEF1002CD75C /* ppl_layer_HUE.png */,
@@ -263,13 +272,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				820C01731822AEF1002CD75C /* bld_BG_BW.png in Resources */,
+				82F3EB7818283E8A00EC6AE3 /* ROOF_DECK_FOREGROUND_.png in Resources */,
 				8240CF0818205527007A25FC /* ppl_layer.png in Resources */,
 				8240CF0A18205527007A25FC /* vanness_Logo.png in Resources */,
 				8240CF0C18205540007A25FC /* motionImgs.plist in Resources */,
 				8240CEE418203A6C007A25FC /* Images.xcassets in Resources */,
 				8240CF0118203CA4007A25FC /* ViewController.xib in Resources */,
+				82F3EB7718283E8A00EC6AE3 /* ROOF_DECK_SKY_.jpg in Resources */,
 				820C01711822AEF1002CD75C /* bld_BG_HUE.png in Resources */,
 				820C01701822AEF1002CD75C /* ppl_layer_HUE.png in Resources */,
+				82F3EB7918283E8A00EC6AE3 /* ROOF_DECK_BACKPLATE_.png in Resources */,
 				8240CED618203A6C007A25FC /* InfoPlist.strings in Resources */,
 				8240CF0918205527007A25FC /* bld_BG.png in Resources */,
 				820C01721822AEF1002CD75C /* ppl_layer_BW.png in Resources */,

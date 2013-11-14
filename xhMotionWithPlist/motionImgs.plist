@@ -5,11 +5,13 @@
 	<dict>
 		<key>images</key>
 		<array>
-			<string>bld_BG.png</string>
-			<string>ppl_layer.png</string>
+			<string>ROOF_DECK_SKY_.jpg</string>
+			<string>ROOF_DECK_BACKPLATE_.png</string>
+			<string>ROOF_DECK_FOREGROUND_.png</string>
 		</array>
 		<key>offsets</key>
 		<array>
+			<string>5</string>
 			<string>15</string>
 			<string>30</string>
 		</array>
@@ -17,25 +19,29 @@
 	<dict>
 		<key>offsets</key>
 		<array>
+			<string>5</string>
 			<string>15</string>
 			<string>30</string>
 		</array>
 		<key>images</key>
 		<array>
-			<string>bld_BG_BW.png</string>
-			<string>ppl_layer_BW.png</string>
+			<string>ROOF_DECK_SKY_.jpg</string>
+			<string>ROOF_DECK_BACKPLATE_.png</string>
+			<string>ROOF_DECK_FOREGROUND_.png</string>
 		</array>
 	</dict>
 	<dict>
 		<key>offsets</key>
 		<array>
-			<string>15</string>
-			<string>30</string>
+			<string>5</string>
+			<string>8</string>
+			<string>60</string>
 		</array>
 		<key>images</key>
 		<array>
-			<string>bld_BG_HUE.png</string>
-			<string>ppl_layer_HUE.png</string>
+			<string>ROOF_DECK_SKY_.jpg</string>
+			<string>ROOF_DECK_BACKPLATE_.png</string>
+			<string>ROOF_DECK_FOREGROUND_.png</string>
 		</array>
 	</dict>
 </array>
