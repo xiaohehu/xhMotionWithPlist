@@ -58,25 +58,27 @@
     _arr_motionImgArray = [[NSMutableArray alloc] init];
     for (int i = 0; i < _arr_motionData.count; i++) {
         _motionImg = [[motionImgView alloc] initWithFrame:self.view.frame andDataDict:[_arr_motionData objectAtIndex:i]];
-        if (i==0)
-        {
-            [_motionImg setMotionEnable:NO];
-            [_motionImg setZoomingEnable:NO];
-        }
-        if (i==1)
-        {
-            [_motionImg setMotionEnable:NO];
-            [_motionImg setZoomingEnable:YES];
-        }
-        if (i==2)
-        {
-            [_motionImg setMotionEnable:YES];
-            [_motionImg setZoomingEnable:YES];
-        }
+//        if (i==0)
+//        {
+//            [_motionImg setMotionEnable:NO];
+//            [_motionImg setZoomingEnable:NO];
+//        }
+//        if (i==1)
+//        {
+//            [_motionImg setMotionEnable:NO];
+//            [_motionImg setZoomingEnable:YES];
+//        }
+//        if (i==2)
+//        {
+//            [_motionImg setMotionEnable:YES];
+//            [_motionImg setZoomingEnable:YES];
+//        }
+        [_motionImg setMotionEnable:YES];
+        [_motionImg setZoomingEnable:YES];
         [_arr_motionImgArray addObject:_motionImg];
 
     }
-    NSLog(@"aaaaaaaaaaa %@", [_arr_motionImgArray description]);
+//    NSLog(@"aaaaaaaaaaa %@", [_arr_motionImgArray description]);
 }
 
 -(void)addMotionImgToBigScrView

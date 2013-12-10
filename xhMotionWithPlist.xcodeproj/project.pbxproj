@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		820C01701822AEF1002CD75C /* ppl_layer_HUE.png in Resources */ = {isa = PBXBuildFile; fileRef = 820C016C1822AEF1002CD75C /* ppl_layer_HUE.png */; };
-		820C01711822AEF1002CD75C /* bld_BG_HUE.png in Resources */ = {isa = PBXBuildFile; fileRef = 820C016D1822AEF1002CD75C /* bld_BG_HUE.png */; };
-		820C01721822AEF1002CD75C /* ppl_layer_BW.png in Resources */ = {isa = PBXBuildFile; fileRef = 820C016E1822AEF1002CD75C /* ppl_layer_BW.png */; };
-		820C01731822AEF1002CD75C /* bld_BG_BW.png in Resources */ = {isa = PBXBuildFile; fileRef = 820C016F1822AEF1002CD75C /* bld_BG_BW.png */; };
 		820FBCB918213A5F0023AE9A /* motionImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 820FBCB818213A5F0023AE9A /* motionImgView.m */; };
+		823BC93E1856217F008E1EF7 /* HERO_FOREGROUND.png in Resources */ = {isa = PBXBuildFile; fileRef = 823BC92D1856217E008E1EF7 /* HERO_FOREGROUND.png */; };
+		823BC9401856217F008E1EF7 /* OFFICE_FOREGROUND.png in Resources */ = {isa = PBXBuildFile; fileRef = 823BC9301856217F008E1EF7 /* OFFICE_FOREGROUND.png */; };
+		823BC9411856217F008E1EF7 /* OFFICE_MIDGROUND.png in Resources */ = {isa = PBXBuildFile; fileRef = 823BC9311856217F008E1EF7 /* OFFICE_MIDGROUND.png */; };
+		823BC9421856217F008E1EF7 /* OFFICE_SKY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 823BC9321856217F008E1EF7 /* OFFICE_SKY.jpg */; };
+		823BC9441856217F008E1EF7 /* CITY ALPHA.png in Resources */ = {isa = PBXBuildFile; fileRef = 823BC9351856217F008E1EF7 /* CITY ALPHA.png */; };
+		823BC9451856217F008E1EF7 /* ROOF_DECK_FOREGROUND.png in Resources */ = {isa = PBXBuildFile; fileRef = 823BC9361856217F008E1EF7 /* ROOF_DECK_FOREGROUND.png */; };
+		823BC9461856217F008E1EF7 /* ROOF_DECK_MIDGOUND.png in Resources */ = {isa = PBXBuildFile; fileRef = 823BC9371856217F008E1EF7 /* ROOF_DECK_MIDGOUND.png */; };
+		823BC9471856217F008E1EF7 /* SKY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 823BC9381856217F008E1EF7 /* SKY.jpg */; };
+		823BC9491856217F008E1EF7 /* TERRACE_FOREGROUND.png in Resources */ = {isa = PBXBuildFile; fileRef = 823BC93B1856217F008E1EF7 /* TERRACE_FOREGROUND.png */; };
+		823BC94A1856217F008E1EF7 /* TERRACE_MIDGROUND.png in Resources */ = {isa = PBXBuildFile; fileRef = 823BC93C1856217F008E1EF7 /* TERRACE_MIDGROUND.png */; };
+		823BC94B1856217F008E1EF7 /* TERRACE_SKY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 823BC93D1856217F008E1EF7 /* TERRACE_SKY.jpg */; };
+		823BC94D18562DA9008E1EF7 /* HERO_SKY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 823BC94C18562DA9008E1EF7 /* HERO_SKY.jpg */; };
 		8240CECC18203A6C007A25FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8240CECB18203A6C007A25FC /* Foundation.framework */; };
 		8240CECE18203A6C007A25FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8240CECD18203A6C007A25FC /* CoreGraphics.framework */; };
 		8240CED018203A6C007A25FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8240CECF18203A6C007A25FC /* UIKit.framework */; };
@@ -27,13 +35,8 @@
 		8240CEF718203A6C007A25FC /* xhMotionWithPlistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240CEF618203A6C007A25FC /* xhMotionWithPlistTests.m */; };
 		8240CF0118203CA4007A25FC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8240CF0018203CA4007A25FC /* ViewController.xib */; };
 		8240CF0418203F34007A25FC /* UIView+Motion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8240CF0218203F34007A25FC /* UIView+Motion.m */; };
-		8240CF0818205527007A25FC /* ppl_layer.png in Resources */ = {isa = PBXBuildFile; fileRef = 8240CF0518205527007A25FC /* ppl_layer.png */; };
-		8240CF0918205527007A25FC /* bld_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 8240CF0618205527007A25FC /* bld_BG.png */; };
 		8240CF0A18205527007A25FC /* vanness_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8240CF0718205527007A25FC /* vanness_Logo.png */; };
 		8240CF0C18205540007A25FC /* motionImgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8240CF0B18205540007A25FC /* motionImgs.plist */; };
-		82F3EB7718283E8A00EC6AE3 /* ROOF_DECK_SKY_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82F3EB7418283E8A00EC6AE3 /* ROOF_DECK_SKY_.jpg */; };
-		82F3EB7818283E8A00EC6AE3 /* ROOF_DECK_FOREGROUND_.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F3EB7518283E8A00EC6AE3 /* ROOF_DECK_FOREGROUND_.png */; };
-		82F3EB7918283E8A00EC6AE3 /* ROOF_DECK_BACKPLATE_.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F3EB7618283E8A00EC6AE3 /* ROOF_DECK_BACKPLATE_.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +50,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		820C016C1822AEF1002CD75C /* ppl_layer_HUE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ppl_layer_HUE.png; sourceTree = "<group>"; };
-		820C016D1822AEF1002CD75C /* bld_BG_HUE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bld_BG_HUE.png; sourceTree = "<group>"; };
-		820C016E1822AEF1002CD75C /* ppl_layer_BW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ppl_layer_BW.png; sourceTree = "<group>"; };
-		820C016F1822AEF1002CD75C /* bld_BG_BW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bld_BG_BW.png; sourceTree = "<group>"; };
 		820FBCB718213A5F0023AE9A /* motionImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = motionImgView.h; sourceTree = "<group>"; };
 		820FBCB818213A5F0023AE9A /* motionImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = motionImgView.m; sourceTree = "<group>"; };
+		823BC92D1856217E008E1EF7 /* HERO_FOREGROUND.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HERO_FOREGROUND.png; sourceTree = "<group>"; };
+		823BC9301856217F008E1EF7 /* OFFICE_FOREGROUND.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OFFICE_FOREGROUND.png; sourceTree = "<group>"; };
+		823BC9311856217F008E1EF7 /* OFFICE_MIDGROUND.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OFFICE_MIDGROUND.png; sourceTree = "<group>"; };
+		823BC9321856217F008E1EF7 /* OFFICE_SKY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OFFICE_SKY.jpg; sourceTree = "<group>"; };
+		823BC9351856217F008E1EF7 /* CITY ALPHA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CITY ALPHA.png"; sourceTree = "<group>"; };
+		823BC9361856217F008E1EF7 /* ROOF_DECK_FOREGROUND.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ROOF_DECK_FOREGROUND.png; sourceTree = "<group>"; };
+		823BC9371856217F008E1EF7 /* ROOF_DECK_MIDGOUND.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ROOF_DECK_MIDGOUND.png; sourceTree = "<group>"; };
+		823BC9381856217F008E1EF7 /* SKY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SKY.jpg; sourceTree = "<group>"; };
+		823BC93B1856217F008E1EF7 /* TERRACE_FOREGROUND.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TERRACE_FOREGROUND.png; sourceTree = "<group>"; };
+		823BC93C1856217F008E1EF7 /* TERRACE_MIDGROUND.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TERRACE_MIDGROUND.png; sourceTree = "<group>"; };
+		823BC93D1856217F008E1EF7 /* TERRACE_SKY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TERRACE_SKY.jpg; sourceTree = "<group>"; };
+		823BC94C18562DA9008E1EF7 /* HERO_SKY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HERO_SKY.jpg; sourceTree = "<group>"; };
 		8240CEC818203A6C007A25FC /* xhMotionWithPlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xhMotionWithPlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8240CECB18203A6C007A25FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8240CECD18203A6C007A25FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,13 +85,8 @@
 		8240CF0018203CA4007A25FC /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		8240CF0218203F34007A25FC /* UIView+Motion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Motion.m"; sourceTree = "<group>"; };
 		8240CF0318203F34007A25FC /* UIView+Motion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Motion.h"; sourceTree = "<group>"; };
-		8240CF0518205527007A25FC /* ppl_layer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ppl_layer.png; sourceTree = "<group>"; };
-		8240CF0618205527007A25FC /* bld_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bld_BG.png; sourceTree = "<group>"; };
 		8240CF0718205527007A25FC /* vanness_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vanness_Logo.png; sourceTree = "<group>"; };
 		8240CF0B18205540007A25FC /* motionImgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = motionImgs.plist; sourceTree = "<group>"; };
-		82F3EB7418283E8A00EC6AE3 /* ROOF_DECK_SKY_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ROOF_DECK_SKY_.jpg; sourceTree = "<group>"; };
-		82F3EB7518283E8A00EC6AE3 /* ROOF_DECK_FOREGROUND_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ROOF_DECK_FOREGROUND_.png; sourceTree = "<group>"; };
-		82F3EB7618283E8A00EC6AE3 /* ROOF_DECK_BACKPLATE_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ROOF_DECK_BACKPLATE_.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		823BC92B1856217E008E1EF7 /* Motion_Images */ = {
+			isa = PBXGroup;
+			children = (
+				823BC92C1856217E008E1EF7 /* HERO */,
+				823BC92F1856217E008E1EF7 /* OFFICE */,
+				823BC9341856217F008E1EF7 /* ROOF DECK */,
+				823BC93A1856217F008E1EF7 /* TERRACE */,
+			);
+			path = Motion_Images;
+			sourceTree = "<group>";
+		};
+		823BC92C1856217E008E1EF7 /* HERO */ = {
+			isa = PBXGroup;
+			children = (
+				823BC94C18562DA9008E1EF7 /* HERO_SKY.jpg */,
+				823BC92D1856217E008E1EF7 /* HERO_FOREGROUND.png */,
+			);
+			path = HERO;
+			sourceTree = "<group>";
+		};
+		823BC92F1856217E008E1EF7 /* OFFICE */ = {
+			isa = PBXGroup;
+			children = (
+				823BC9321856217F008E1EF7 /* OFFICE_SKY.jpg */,
+				823BC9311856217F008E1EF7 /* OFFICE_MIDGROUND.png */,
+				823BC9301856217F008E1EF7 /* OFFICE_FOREGROUND.png */,
+			);
+			path = OFFICE;
+			sourceTree = "<group>";
+		};
+		823BC9341856217F008E1EF7 /* ROOF DECK */ = {
+			isa = PBXGroup;
+			children = (
+				823BC9381856217F008E1EF7 /* SKY.jpg */,
+				823BC9351856217F008E1EF7 /* CITY ALPHA.png */,
+				823BC9371856217F008E1EF7 /* ROOF_DECK_MIDGOUND.png */,
+				823BC9361856217F008E1EF7 /* ROOF_DECK_FOREGROUND.png */,
+			);
+			path = "ROOF DECK";
+			sourceTree = "<group>";
+		};
+		823BC93A1856217F008E1EF7 /* TERRACE */ = {
+			isa = PBXGroup;
+			children = (
+				823BC93D1856217F008E1EF7 /* TERRACE_SKY.jpg */,
+				823BC93C1856217F008E1EF7 /* TERRACE_MIDGROUND.png */,
+				823BC93B1856217F008E1EF7 /* TERRACE_FOREGROUND.png */,
+			);
+			path = TERRACE;
+			sourceTree = "<group>";
+		};
 		8240CEBF18203A6C007A25FC = {
 			isa = PBXGroup;
 			children = (
@@ -150,15 +207,7 @@
 				8240CF0318203F34007A25FC /* UIView+Motion.h */,
 				8240CF0218203F34007A25FC /* UIView+Motion.m */,
 				8240CF0B18205540007A25FC /* motionImgs.plist */,
-				82F3EB7418283E8A00EC6AE3 /* ROOF_DECK_SKY_.jpg */,
-				82F3EB7518283E8A00EC6AE3 /* ROOF_DECK_FOREGROUND_.png */,
-				82F3EB7618283E8A00EC6AE3 /* ROOF_DECK_BACKPLATE_.png */,
-				8240CF0518205527007A25FC /* ppl_layer.png */,
-				8240CF0618205527007A25FC /* bld_BG.png */,
-				820C016C1822AEF1002CD75C /* ppl_layer_HUE.png */,
-				820C016D1822AEF1002CD75C /* bld_BG_HUE.png */,
-				820C016E1822AEF1002CD75C /* ppl_layer_BW.png */,
-				820C016F1822AEF1002CD75C /* bld_BG_BW.png */,
+				823BC92B1856217E008E1EF7 /* Motion_Images */,
 				8240CF0718205527007A25FC /* vanness_Logo.png */,
 				8240CEE318203A6C007A25FC /* Images.xcassets */,
 				8240CED218203A6C007A25FC /* Supporting Files */,
@@ -271,20 +320,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				820C01731822AEF1002CD75C /* bld_BG_BW.png in Resources */,
-				82F3EB7818283E8A00EC6AE3 /* ROOF_DECK_FOREGROUND_.png in Resources */,
-				8240CF0818205527007A25FC /* ppl_layer.png in Resources */,
+				823BC94A1856217F008E1EF7 /* TERRACE_MIDGROUND.png in Resources */,
+				823BC9471856217F008E1EF7 /* SKY.jpg in Resources */,
+				823BC93E1856217F008E1EF7 /* HERO_FOREGROUND.png in Resources */,
 				8240CF0A18205527007A25FC /* vanness_Logo.png in Resources */,
+				823BC9491856217F008E1EF7 /* TERRACE_FOREGROUND.png in Resources */,
 				8240CF0C18205540007A25FC /* motionImgs.plist in Resources */,
+				823BC9411856217F008E1EF7 /* OFFICE_MIDGROUND.png in Resources */,
+				823BC9421856217F008E1EF7 /* OFFICE_SKY.jpg in Resources */,
 				8240CEE418203A6C007A25FC /* Images.xcassets in Resources */,
 				8240CF0118203CA4007A25FC /* ViewController.xib in Resources */,
-				82F3EB7718283E8A00EC6AE3 /* ROOF_DECK_SKY_.jpg in Resources */,
-				820C01711822AEF1002CD75C /* bld_BG_HUE.png in Resources */,
-				820C01701822AEF1002CD75C /* ppl_layer_HUE.png in Resources */,
-				82F3EB7918283E8A00EC6AE3 /* ROOF_DECK_BACKPLATE_.png in Resources */,
+				823BC9451856217F008E1EF7 /* ROOF_DECK_FOREGROUND.png in Resources */,
+				823BC94D18562DA9008E1EF7 /* HERO_SKY.jpg in Resources */,
+				823BC9441856217F008E1EF7 /* CITY ALPHA.png in Resources */,
+				823BC9401856217F008E1EF7 /* OFFICE_FOREGROUND.png in Resources */,
 				8240CED618203A6C007A25FC /* InfoPlist.strings in Resources */,
-				8240CF0918205527007A25FC /* bld_BG.png in Resources */,
-				820C01721822AEF1002CD75C /* ppl_layer_BW.png in Resources */,
+				823BC9461856217F008E1EF7 /* ROOF_DECK_MIDGOUND.png in Resources */,
+				823BC94B1856217F008E1EF7 /* TERRACE_SKY.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

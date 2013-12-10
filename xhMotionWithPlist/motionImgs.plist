@@ -5,14 +5,12 @@
 	<dict>
 		<key>images</key>
 		<array>
-			<string>ROOF_DECK_SKY_.jpg</string>
-			<string>ROOF_DECK_BACKPLATE_.png</string>
-			<string>ROOF_DECK_FOREGROUND_.png</string>
+			<string>HERO_SKY.jpg</string>
+			<string>HERO_FOREGROUND.png</string>
 		</array>
 		<key>offsets</key>
 		<array>
 			<string>5</string>
-			<string>15</string>
 			<string>30</string>
 		</array>
 	</dict>
@@ -21,13 +19,13 @@
 		<array>
 			<string>5</string>
 			<string>15</string>
-			<string>30</string>
+			<string>40</string>
 		</array>
 		<key>images</key>
 		<array>
-			<string>ROOF_DECK_SKY_.jpg</string>
-			<string>ROOF_DECK_BACKPLATE_.png</string>
-			<string>ROOF_DECK_FOREGROUND_.png</string>
+			<string>OFFICE_SKY.jpg</string>
+			<string>OFFICE_MIDGROUND.png</string>
+			<string>OFFICE_FOREGROUND.png</string>
 		</array>
 	</dict>
 	<dict>
@@ -39,9 +37,23 @@
 		</array>
 		<key>images</key>
 		<array>
-			<string>ROOF_DECK_SKY_.jpg</string>
-			<string>ROOF_DECK_BACKPLATE_.png</string>
-			<string>ROOF_DECK_FOREGROUND_.png</string>
+			<string>SKY.jpg</string>
+			<string>ROOF_DECK_MIDGOUND.png</string>
+			<string>ROOF_DECK_FOREGROUND.png</string>
+		</array>
+	</dict>
+	<dict>
+		<key>offsets</key>
+		<array>
+			<string>5</string>
+			<string>20</string>
+			<string>30</string>
+		</array>
+		<key>images</key>
+		<array>
+			<string>TERRACE_SKY.jpg</string>
+			<string>TERRACE_MIDGROUND.png</string>
+			<string>TERRACE_FOREGROUND.png</string>
 		</array>
 	</dict>
 </array>

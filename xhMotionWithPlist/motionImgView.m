@@ -45,7 +45,7 @@ static CGFloat kMaxZoom = 2.0;
     [self loadData];
     [self readAndSetData];
     [self addSubview:uis_scrView];
-    [self initSlider];
+//    [self initSlider];
 }
 
 #pragma mark - Get data from Dictionary
